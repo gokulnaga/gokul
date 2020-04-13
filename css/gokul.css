@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	font-family: sans-serif;
 	line-height: 30px;
+	background-image: url(https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); ;
 }
 header{
 	background-color: #6C3483;
@@ -18,6 +19,7 @@ header h1{
 	color: #85C1E9;
 	font-size: 50px;
 	
+	
 
 }
 header img{
@@ -26,13 +28,13 @@ header img{
 	border: 15px solid #85C1E9;
 }
 main{
-	background-image: url(https://qtxasset.com/fiercebiotech/1553681843/connor-wells-534089-unsplash.jpg/connor-wells-534089-unsplash.jpg?XObjNuiIeq00Lv1yNJ92KYHkC1mDagZm);
-	max-width: 800px;
+    max-width: 800px;
 	margin: 20 auto;
 	padding: 20px 20px;
 }
 main p{
 	font-size: 20px;
+	color: #D2B4DE ;
 }
 a{
 	color: #6C3483;
@@ -45,6 +47,7 @@ a:hover{
 }
 main img{
 	text-align:center;
+	width: 150px;
 }
 footer{
 	text-align: center;
