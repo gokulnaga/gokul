@@ -26,6 +26,8 @@ header img{
 	border-radius: 160px;
 	width: 300px;
 	border: 15px solid #2F4F4F;
+	float: right
+	;
 }
 main{
     max-width: 800px;
@@ -48,13 +50,14 @@ a:hover{
 main img{
 	text-align:center;
 	width: 150px;
+	float: right;
 }
 footer{
 	color: #2F4F4F;
 	text-align: center;
 	font-size: 25px;
 	background-image: url(https://images.wallpapersden.com/image/download/topography-abstract-black-texture_64113_2880x1800.jpg);
-	padding: 50px;
+	padding: 30px;
 }
 footer p{
 	
