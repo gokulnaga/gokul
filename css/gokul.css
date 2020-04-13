@@ -2,10 +2,10 @@ body{
 	margin: 0;
 	font-family: sans-serif;
 	line-height: 30px;
-	background-image: url(https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); ;
+	background-image: url(https://wallpaperaccess.com/full/1489187.jpg); ;
 }
 header{
-	background-color: #6C3483;
+	background-image: url(https://images.wallpapersden.com/image/download/topography-abstract-black-texture_64113_2880x1800.jpg);
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -13,10 +13,10 @@ header{
 h1,h2{
 	font-family: 'Atma', cursive;
 	font-size: 35px;
-	color: #85C1E9;
+	color: #2F4F4F;
 }
 header h1{
-	color: #85C1E9;
+	color: #2F4F4F;
 	font-size: 50px;
 	
 	
@@ -25,7 +25,7 @@ header h1{
 header img{
 	border-radius: 160px;
 	width: 300px;
-	border: 15px solid #85C1E9;
+	border: 15px solid #2F4F4F;
 }
 main{
     max-width: 800px;
@@ -34,7 +34,7 @@ main{
 }
 main p{
 	font-size: 20px;
-	color: #D2B4DE ;
+	color: #696969 ;
 }
 a{
 	color: #6C3483;
@@ -50,17 +50,19 @@ main img{
 	width: 150px;
 }
 footer{
+	color: #2F4F4F;
 	text-align: center;
 	font-size: 25px;
-	background-color: #6C3483;
+	background-image: url(https://images.wallpapersden.com/image/download/topography-abstract-black-texture_64113_2880x1800.jpg);
 	padding: 50px;
 }
 footer p{
+	
 	margin: 0;
 	text-align: center;
 }
 footer a{
-	color: white;
+	color: #696969;
 }
 
 
