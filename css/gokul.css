@@ -51,6 +51,7 @@ main img{
 	text-align:center;
 	width: 150px;
 	float: right;
+	border: 8px dashed #696969;
 }
 footer{
 	color: #2F4F4F;
