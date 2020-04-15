@@ -5,13 +5,69 @@ body{
 	background-image: url(https://wallpaperaccess.com/full/1489187.jpg); ;
 }
 header{
+
 	background-image: url(https://images.wallpapersden.com/image/download/topography-abstract-black-texture_64113_2880x1800.jpg);
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
 	position: sticky;
+	
 	top: 0;
+	z-index: 1;
 }
+.box{
+	display: block;
+	height: 40px;
+	background-color: black;
+	z-index: 0;
+	float: left;
+	height: 100%;
+	width: 20%;
+
+}
+.box1{
+	display: block; 
+	
+	border-bottom: 2px solid #696969;
+	color: white;
+	background-color: black;
+	width: 70px;
+	font-size: 25px;
+	padding: 10px 5px;
+}
+.box2{
+	display: block;
+	border-bottom: 2px solid #696969;
+	color: white;
+	background-color: black;
+	width: 70px;
+	font-size: 25px;
+	padding: 10px 5px;
+
+}
+.box3{
+	display: block;
+	border-bottom: 2px solid #696969;
+	color: white;
+	background-color: black;
+	width: 70px;
+	font-size: 25px;
+	padding: 10px 5px;
+
+}
+div a{
+	color: #2F4F4F;
+	font-family: 'sans-serif', cursive;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+div a:hover{
+	color: white;
+	background-color: black;
+}
+
 h1,h2{
 	font-family: 'Atma', cursive;
 	font-size: 35px;
@@ -20,21 +76,24 @@ h1,h2{
 header h1{
 	color: #2F4F4F;
 	font-size: 50px;
-	
-	
-
 }
 header img{
-	border-radius: 160px;
-	width: 300px;
-	border: 15px solid #2F4F4F;
-	float: right
-	;
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	border: 3px solid #2F4F4F;
+	float: left;
+
+	
 }
 main{
     max-width: 800px;
-	margin: 20 auto;
-	padding: 20px 20px;
+	
+	padding: 0px 20px 20px;
+}
+.main{
+	display: block;
+	padding-left: 200px;
 }
 main p{
 	font-size: 20px;
