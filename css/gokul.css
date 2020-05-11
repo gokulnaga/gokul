@@ -11,19 +11,19 @@ header{
 	padding-top: 10px;
 	padding-bottom: 20px;
 	padding-left: 20px;
-	position: sticky;
-	
 	top: 0;
 	z-index: 1;
 }
 .box{
-	display: inline-block;
+	display: block;
 	height: 40px;
 	background-color: #073D63;
 	z-index: 0;
 	float: left;
-	height: 90%;
-	width: 20%;
+	height: 100%;
+	width: 18%;
+    margin: 0px 20px;
+    border-radius: 5px;
 
 }
 .box1{
@@ -53,6 +53,23 @@ header{
 	width: 70px;
 	font-size: 25px;
 	padding: 10px 5px;
+
+}
+.rightbox{
+	display: block;
+	background-color: #073D63;
+	float: right;
+	height: 100%;
+	width: 20%;
+	margin: 0px 50px;
+	border-radius: 5px;
+
+
+}
+.rightbox h1{
+	font-family: 'Atma', cursive;
+	font-size: 35px;
+	color: black;
 
 }
 div a{
@@ -87,15 +104,16 @@ header img{
 	
 }
 main{
-    max-width: 800px;
-	
-	padding: 0px 20px 20px;
+	display: block;
+    max-width: 1000px;
+    text-align: center;
 }
 .main{
 	display: block;
 	padding-left: 200px;
 }
 main p{
+	display: block;
 	font-size: 20px;
 	color: #696969 ;
 }
