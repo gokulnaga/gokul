@@ -16,7 +16,6 @@ header{
 }
 .box{
 	display: block;
-	height: 40px;
 	background-color: #073D63;
 	z-index: 0;
 	float: left;
@@ -60,6 +59,7 @@ header{
 	background-color: #073D63;
 	float: right;
 	height: 100%;
+	
 	width: 20%;
 	margin: 0px 50px;
 	border-radius: 5px;
@@ -106,14 +106,16 @@ header img{
 main{
 	display: block;
     max-width: 1000px;
-    text-align: center;
+    
+
 }
 .main{
 	display: block;
 	padding-left: 200px;
+	height: 110%;
 }
 main p{
-	display: block;
+	
 	font-size: 20px;
 	color: #696969 ;
 }
@@ -133,8 +135,9 @@ main img{
 	border: 8px dashed #073D63;
 }
 footer{
+	display: block;
 	color: #000406;
-	text-align: center;
+	
 	font-size: 25px;
 	background-color: #073D63;
 	padding: 30px;
@@ -142,13 +145,22 @@ footer{
 footer p{
 	
 	margin: 0;
-	text-align: center;
+	
 }
 footer a{
 	color: #696969;
+	float: right;
+	margin-bottom: 20px;
+
 }
 
-
+footer img{
+	border-radius: 5px;
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	
+}
 
 
 
